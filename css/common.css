@@ -1,8 +1,8 @@
 :root {
     --main-bg-color: rgb(224, 240, 255);
     --bg-color-dark: rgb(193, 224, 252);
-    --bg-color-light: rgb(235, 239, 242);
-    --main-text-color: rgb(37, 69, 173);
+    --bg-color-light: rgb(255, 255, 255);
+    --main-text-color: rgb(62, 129, 210);
     --elem-text-color: rgb(131, 102, 106);
     --main-elem-color: rgb(121, 181, 255);
     --main-highlight-color: rgb(155, 240, 255);

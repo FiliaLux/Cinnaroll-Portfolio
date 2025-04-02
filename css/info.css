@@ -6,10 +6,17 @@
 .info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1.5rem;
     .info-h2 {
         color: var(--elem-text-color);
     }
     .info-p {
+        position: relative;
         background-color: var(--bg-color-light);
+        padding: 0.2rem;
+        border-radius: 4px;
+        margin-bottom: 0;
     }
 }
