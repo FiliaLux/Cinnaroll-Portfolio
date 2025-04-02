@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color-dark);
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    
+    img {
+        width: 10%;
+        max-width: 300px;
+        min-width: 100px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.header .nav .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+

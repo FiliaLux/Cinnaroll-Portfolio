@@ -1,0 +1,15 @@
+.main {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 768px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    .info-h2 {
+        color: var(--elem-text-color);
+    }
+    .info-p {
+        background-color: var(--bg-color-light);
+    }
+}

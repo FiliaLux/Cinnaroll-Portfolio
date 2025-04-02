@@ -1,0 +1,10 @@
+.btn {
+    background-color: var(--main-elem-color);
+    color: var(--elem-text-color);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.6rem;
+    display: inline-block;
+    border-radius: 9px;
+    bottom: 0;
+}
