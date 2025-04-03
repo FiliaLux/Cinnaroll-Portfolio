@@ -36,7 +36,7 @@
         </nav>
     </header>
     <main class="page">
-        <form action="" method="post" novalidate>
+        <form action="" novalidate>
             <h2 class="info-header">Info page</h2>
             <div class="form-element">
                 <label for="username">Name</label>
@@ -56,14 +56,18 @@
             </div>
             <fieldset class="form-element radio">
                 <legend>How did you find me?</legend>
-                <label for="school">School</label>
-                <input type="radio" name="option" id="school" value="school">
-                <label for="friends">Friends</label>
-                <input type="radio" name="option" id="friends" value="friends">
-                <label for="media">Media</label>
-                <input type="radio" name="option" id="media" value="media">
-                <label for="other">Other</label>
-                <input type="radio" name="option" id="other" value="other" checked>
+                <label for="school">School
+                    <input type="radio" name="option" id="school" value="school"> 
+                </label>
+                <label for="friends">Friends
+                    <input type="radio" name="option" id="friends" value="friends">
+                </label>
+                <label for="media">Media
+                    <input type="radio" name="option" id="media" value="media">
+                </label>               
+                <label for="other">Other
+                    <input type="radio" name="option" id="other" value="other" checked>
+                </label>
             </fieldset>
              <div class="form-element">
                 <label for="more-info">What would you like to know?</label>
@@ -73,8 +77,11 @@
                 <label for="newsletter">Suscribe to our newsletter</label>
                 <input type="checkbox" name="newsletter" id="newsletter">
             </div>
-            <input class="btn secondary" type="reset" value="Reset">
-            <button class="btn">Send</button>
+            <div class="buttons">
+                <input class="btn secondary" type="reset" value="Reset">
+                <button class="btn">Send</button>
+            </div>
+            
         </form>
         <footer class="footer">
             <p>2025 <strong>Cinnamoroll™</strong>. All rights reserved.</p>
