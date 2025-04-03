@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/infomain.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body class="body container">
+    <header class="header">
+        <img src="./images/header/Cinnamoroll-Transparent main.png" alt="">
+        <h1 class="sr-only">Info page</h1>
+        <nav class="nav">
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="#83666a" d="M0 96C0 78.3 14.3 64 32 64h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"/>
+                </svg>
+            </label>
+            <ul class="nav-list">
+                <li><a class="btn" href="index.html">Skills</a></li>
+                <li><a class="btn" href="projects.html">Projects</a></li>
+                <li><a class="btn" href="infopage.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="page">
+        <form action="" method="post" novalidate>
+            <h2 class="info-header">Info page</h2>
+            <div class="form-element">
+                <label for="username">Name</label>
+                <input required type="text" name="username" id="username" placeholder="Enter your name">
+            </div>
+            <div class="form-element">
+                <label for="surname">Surname</label>
+                <input required type="text" name="surname" id="surname" placeholder="Enter your surname">
+            </div>
+            <div class="form-element">
+                <label for="tel">Telephone</label>
+                <input type="tel" name="tel" id="tel" placeholder="Phone number">
+            </div>
+            <div class="form-element">
+                <label for="git-username">GitHub username</label>
+                <input type="text" name="git-username" id="git-username" placeholder="GitHub username">
+            </div>
+            <fieldset class="form-element radio">
+                <legend>How did you find me?</legend>
+                <label for="school">School</label>
+                <input type="radio" name="option" id="school" value="school">
+                <label for="friends">Friends</label>
+                <input type="radio" name="option" id="friends" value="friends">
+                <label for="media">Media</label>
+                <input type="radio" name="option" id="media" value="media">
+                <label for="other">Other</label>
+                <input type="radio" name="option" id="other" value="other" checked>
+            </fieldset>
+             <div class="form-element">
+                <label for="more-info">What would you like to know?</label>
+                <textarea name="more-info" id="more-info" rows="4" placeholder="Ask me anything!" maxlength="120"></textarea>
+            </div>
+            <div class="form-element row">
+                <label for="newsletter">Suscribe to our newsletter</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+            </div>
+            <input class="btn secondary" type="reset" value="Reset">
+            <button class="btn">Send</button>
+        </form>
+        <footer class="footer">
+            <p>2025 <strong>Cinnamoroll™</strong>. All rights reserved.</p>
+        </footer>
+    </main>   
+</body>
+</html>

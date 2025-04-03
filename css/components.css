@@ -2,6 +2,7 @@
     background-color: transparent;
     color: var(--elem-text-color);
     font-weight: 300;
+    font-size: large;
     text-decoration: none;
     padding: 0.6rem;
     display: inline-block;
@@ -17,5 +18,70 @@
     }
     .btn:hover {
         background-color: rgba(121, 181, 255, 0.972);
+    }
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.1rem;
+    label, legend {
+        margin-bottom: 0.5rem;
+        color: var(--elem-text-color);
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    &.radio {
+        legend {
+        margin-bottom: 1rem;
+        }
+        label {
+            color: var(--main-text-color);
+            font-size: 1rem;
+        }
+    }
+    input, textarea, select {
+        border: none;
+        padding: 0.3rem;
+        border-radius: 5px;
+        background-color: var(--bg-color-light);
+        color: var(--main-text-color);
+        font-family: "Chewy";
+    }
+    input::placeholder {
+        color: var(--main-elem-color);
+        font-family: "Chewy";
+    }
+    textarea::placeholder {
+        color: var(--main-elem-color);
+        font-family: "Chewy";
+    }
+    input:focus {
+        border: 1px solid var(--main-elem-color);
+        outline: none;
+    }
+    textarea:focus {
+        border: 1px solid var(--main-elem-color);
+        outline: none;
+    }
+    &.row {
+        flex-direction: row;
+        gap: 20px;
+        border-radius: 5px;
+        label {
+            margin: 0;
+        }
+    }
+}
+
+.file-element {
+    margin-bottom: 1.1rem;
+    margin-top: 1.5rem;
+    label {
+        display: block;
+        background-color: var(--bg-color-light);
+        color: var(--main-text-color);
+        padding: 1rem;
+        border-radius: 5px;
     }
 }

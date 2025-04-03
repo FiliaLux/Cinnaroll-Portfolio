@@ -52,13 +52,15 @@
 .nav-list li {
     list-style: none;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .nav-list a {
     text-decoration: none;
     color: var(--elem-text-color);
+    font-family: "Chewy";
     font-weight: bold;
+    font-size: 1.3rem;
     display: block;
     padding: 10px;
     transition: background-color 0.3s;

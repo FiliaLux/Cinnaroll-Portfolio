@@ -1,0 +1,11 @@
+.container {
+    background-image: url("../images/projects/ChatGPT\ Image\ Apr\ 2\,\ 2025\,\ 06_55_12\ PM.png");
+    background-position: center;
+}
+.page {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.843);
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+}
