@@ -1,10 +1,21 @@
 .btn {
-    background-color: var(--main-elem-color);
+    background-color: transparent;
     color: var(--elem-text-color);
-    font-weight: bold;
+    font-weight: 300;
     text-decoration: none;
     padding: 0.6rem;
     display: inline-block;
     border-radius: 9px;
     bottom: 0;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+@media screen and (hover: hover) {
+    .btn {
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: rgba(121, 181, 255, 0.972);
+    }
 }

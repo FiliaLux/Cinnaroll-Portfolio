@@ -4,15 +4,23 @@
     --bg-color-light: rgb(255, 255, 255);
     --main-text-color: rgb(62, 129, 210);
     --elem-text-color: rgb(131, 102, 106);
+    --elem-color-light: rgb(143, 119, 122);
     --main-elem-color: rgb(121, 181, 255);
-    --main-highlight-color: rgb(155, 240, 255);
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    --main-highlight-color: rgb(255, 169, 205);
+    --highlight-color-light: rgb(255, 206, 229);
+    font-family: "Shrikhand", "Chewy", "Roboto", sans-serif;
     font-size: 16px;
 }
 
 .body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 768px;
 }
 
 h1, h2, h3, p {
