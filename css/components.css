@@ -9,7 +9,7 @@
     border-radius: 9px;
     border: 2px solid transparent;
     bottom: 0;
-    transition-property: background-color;
+    transition-property: background-color, border-color;
     transition-duration: 0.5s;
 }
 
@@ -31,7 +31,6 @@
         }
     }
 }
-
 .form-element {
     display: flex;
     flex-direction: column;
@@ -111,22 +110,6 @@
 .radio input[type="radio"]:checked::before {
     background-color: var(--main-text-color); 
     border-radius: 50%;
-}
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    label {
-        margin: 0;
-        padding: 0;
-        font-weight: 100;
-        font-size: 1rem;
-        font-family: "Chewy";
-
-    }
 }
 input[type="checkbox"] {
     appearance: none; 

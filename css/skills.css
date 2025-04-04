@@ -32,7 +32,7 @@ h4 {
     height: 10px;
     width: 100%; 
     border-radius: 8px;
-    border: 1px solid var(--main-elem-color);
+    border: 1px solid var(--elem-text-color);
     background-color: var(--bg-color-light);  
     .content {
         position: absolute;
@@ -62,7 +62,7 @@ h4 {
 @media screen and (prefers-reduced-motion: no-preference) {
     @keyframes progress {
         0% {
-            width: 0%;
+            width: 2%;
             background-color: var(--main-highlight-color);
         }
         30% {
